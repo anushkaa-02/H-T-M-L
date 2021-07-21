@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <center><h1>Stream Upgradation Form</h1></center>
+    <hr size="2" color="blue" width=100% ALIGN="center">
+    <form action="backend.php">
+<h3><u>Personal Information:</u></h3>
+        Name: <input type="text">
+	&nbsp;&nbsp;Father's Name: <input type="text">
+	&nbsp;&nbsp;Mother's Name: <input type="text">
+	&nbsp;&nbsp;Address:<input type="text">
+	&nbsp;&nbsp;Phone no:<input type="text"><br><br>
+	Email: <input type="email"><br><br>
+<ul><li>Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Others<input type="radio" name="myGender"></li></ul>
+<h3><u>Academic Area:</u></h3>
+	&nbsp;&nbsp;&nbsp;College Name:<input type="text">
+       <label for="department">Department</label>
+        <select name="myDepartment" id="department">
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="CE">CE</option>
+            <option value="CHE">CHE</option>
+            <option value="CSBS">CSBS</option>
+            <option value="EE">EE</option>
+            <option value="ME">ME</option>
+        </select> 
+        &nbsp;&nbsp;<label for="year">Year</label>
+        <select name="myyear" id="year">
+            <option value=">1st">1st</option>
+            
+            <option value=">2nd">2nd</option>
+	</select>
+        &nbsp;&nbsp;<label for="section">Section</label>
+        <select name="mySection" id="section">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            </select>
+        &nbsp;&nbsp;Roll no:<input type="number">
+     &nbsp;&nbsp;Registration No: <input type="number">
+     &nbsp;&nbsp;<label for="cgpa">CGPA</label>
+     <select name="mycgpa" id="cgpa">
+         <option value=">7.0-7.5">7-7.5</option>
+     <option value=">7.5-8.0">7.5-8.0</option>
+     <option value=">8.0-8.5">8.0-8.5</option>
+     <option value=">8.5-9.0">8.5-9.0</option>
+         <option value=">9.0-10.0">9.0-10.0</option>
+ </select>
+	<br><br>
+       <ul><li> Want to upgrade stream? <input type="checkbox"><br><br></ul></li>
+       <ol><li type="1."> Why do You want to upgrade? <br></li>
+        <textarea name="myText" cols="90" rows="10"></textarea>
+        <br><br>
+        <li type="2.">Form Submission Date: <input type="date"></ol></li>
+        
+        <div>
+           <center> <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now"></center>
+        </div>
+    </form> 
+</body>
+</html>
